@@ -27,7 +27,7 @@ class Stringresources extends Component {
                   marginTop: "20px",
                 }}
               >
-                Hard-Coded Text
+                String Resources!
               </Text>
             </Col>
 
@@ -45,9 +45,9 @@ class Stringresources extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/stringResources.png"
+                  alt="topicsStringResources"
+                  className="topics-stringResources-image"
                 />
               </Col>
               <Col span={16}>
@@ -79,9 +79,9 @@ class Stringresources extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/stringResources.png"
+                  alt="topicsStringResources"
+                  className="topics-stringResources-image"
                 />
               </Col>
               <Col span={16}>
@@ -113,9 +113,9 @@ class Stringresources extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/stringResources.png"
+                  alt="topicsStringResources"
+                  className="topics-stringResources-image"
                 />
               </Col>
               <Col span={16}>
@@ -146,9 +146,9 @@ class Stringresources extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/stringResources.png"
+                  alt="topicsStringResources"
+                  className="topics-stringResources-image"
                 />
               </Col>
               <Col span={16}>

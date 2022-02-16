@@ -27,7 +27,7 @@ class Textconcant extends Component {
                   marginTop: "20px",
                 }}
               >
-                Hard-Coded Text
+                Text Concantenation
               </Text>
             </Col>
 
@@ -45,9 +45,9 @@ class Textconcant extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/textConcant.png"
+                  alt="topicsTextConcant"
+                  className="topics-textConcant-image"
                 />
               </Col>
               <Col span={16}>
@@ -79,9 +79,9 @@ class Textconcant extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/textConcant.png"
+                  alt="topicsTextConcant"
+                  className="topics-textConcant-image"
                 />
               </Col>
               <Col span={16}>
@@ -113,9 +113,9 @@ class Textconcant extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/textConcant.png"
+                  alt="topicsTextConcant"
+                  className="topics-textConcant-image"
                 />
               </Col>
               <Col span={16}>
@@ -146,9 +146,9 @@ class Textconcant extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/textConcant.png"
+                  alt="topicsTextConcant"
+                  className="topics-textConcant-image"
                 />
               </Col>
               <Col span={16}>

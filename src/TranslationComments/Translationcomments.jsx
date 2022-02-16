@@ -27,7 +27,7 @@ class Translationcomments extends Component {
                   marginTop: "20px",
                 }}
               >
-                Hard-Coded Text
+               Translation Comments
               </Text>
             </Col>
 
@@ -45,9 +45,9 @@ class Translationcomments extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/translationComment.png"
+                  alt="topicsTranslationComment"
+                  className="topics-translationComment-image"
                 />
               </Col>
               <Col span={16}>
@@ -79,9 +79,9 @@ class Translationcomments extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/translationComment.png"
+                  alt="topicsTranslationComment"
+                  className="topics-translationComment-image"
                 />
               </Col>
               <Col span={16}>
@@ -113,9 +113,9 @@ class Translationcomments extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/translationComment.png"
+                  alt="topicsTranslationComment"
+                  className="topics-translationComment-image"
                 />
               </Col>
               <Col span={16}>
@@ -146,9 +146,9 @@ class Translationcomments extends Component {
               <Col span={8}>
                 {" "}
                 <img
-                  src="/assets/Hardcode.png"
-                  alt="topicsHardCoded"
-                  className="topics-HardCoded-Image"
+                  src="/assets/translationComment.png"
+                  alt="topicsTranslationComment"
+                  className="topics-translationComment-image"
                 />
               </Col>
               <Col span={16}>

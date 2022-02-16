@@ -241,6 +241,119 @@ class Topics extends Component {
               </Text>
 
             <Divider />
+
+
+            <Col span={24}>
+              <br />
+              <br />
+              <Text><h2>String Resources</h2> </Text>
+              <br />
+              <br />
+            </Col>
+
+            <Row style={{}}>
+              <Col span={12}>
+                {" "}
+                <img
+                  src="/assets/stringResources.png"
+                  alt="topicsStringResources"
+                  className="topics-stringResources-image"
+                />
+              </Col>
+              <Col span={8}>
+                <Text>
+                  Test you understanding of your knowledge on common concepts
+                  and challenges of Localisation! Take our quick quiz on the
+                  topics of localisation and internationalisation!
+                  <br />
+                  <br />
+                </Text>
+              </Col>
+            </Row>
+
+            <Text>
+                <h4>
+                  <Link to="/stringresources">Click Here!</Link>
+                </h4>
+              </Text>
+
+            <Divider />
+
+
+            <Col span={24}>
+              <br />
+              <br />
+              <Text><h2>Translation Comments</h2> </Text>
+              <br />
+              <br />
+            </Col>
+
+            <Row style={{}}>
+              <Col span={12}>
+                {" "}
+                <img
+                  src="/assets/translationComment.png"
+                  alt="topicsTranslationComment"
+                  className="topics-translationComment-image"
+                />
+              </Col>
+              <Col span={8}>
+                <Text>
+                  Test you understanding of your knowledge on common concepts
+                  and challenges of Localisation! Take our quick quiz on the
+                  topics of localisation and internationalisation!
+                  <br />
+                  <br />
+                </Text>
+              </Col>
+            </Row>
+
+            <Text>
+                <h4>
+                  <Link to="/translationcomments">Click Here!</Link>
+                </h4>
+              </Text>
+
+            <Divider />
+
+
+            <Col span={24}>
+              <br />
+              <br />
+              <Text><h2>Text Concantenation</h2> </Text>
+              <br />
+              <br />
+            </Col>
+
+            <Row style={{}}>
+              <Col span={12}>
+                {" "}
+                <img
+                  src="/assets/textConcant.png"
+                  alt="topicsTextConcant"
+                  className="topics-textConcant-image"
+                />
+              </Col>
+              <Col span={8}>
+                <Text>
+                  Test you understanding of your knowledge on common concepts
+                  and challenges of Localisation! Take our quick quiz on the
+                  topics of localisation and internationalisation!
+                  <br />
+                  <br />
+                </Text>
+              </Col>
+            </Row>
+
+            <Text>
+                <h4>
+                  <Link to="/textconcant">Click Here!</Link>
+                </h4>
+              </Text>
+
+            <Divider />
+
+
           </Col>
           <Col xs={1} md={2} lg={4} />
         </Row>

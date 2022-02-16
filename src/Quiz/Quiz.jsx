@@ -27,11 +27,11 @@ class Quiz extends Component {
                   marginTop: "20px",
                 }}
               >
-                Hard-Coded Text
+              Quiz
               </Text>
             </Col>
 
-            <Col span={24}>
+            {/* <Col span={24}>
               <br />
               <br />
               <Text underline>
@@ -162,7 +162,7 @@ class Quiz extends Component {
                 </Text>
               </Col>
             </Row>
-            <Divider />
+            <Divider /> */}
           </Col>
           <Col xs={1} md={2} lg={4} />
         </Row>
