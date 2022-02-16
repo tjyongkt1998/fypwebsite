@@ -1,0 +1,8 @@
+@import "~antd/dist/antd.less";
+
+.homepage-col {
+    text-align: center;
+    padding-bottom: 4px;
+  }
+
+  

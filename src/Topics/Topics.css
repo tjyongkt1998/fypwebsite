@@ -1,0 +1,28 @@
+
+.topics-UI-Image {
+   height:150px;
+   width:150px;
+  }
+
+  .home-app-title {
+    font-family: lato-bold;
+    font-size: 50px;
+     font-weight: 700;
+    -webkit-text-stroke-width: 0.1px;
+     letter-spacing: 2px;
+     text-transform: capitalize;
+     line-height: 1.7;
+   text-align: center;
+  
+     @media only screen and (min-width: 576px) {
+       font-size: 13px;
+     }
+  
+     @media only screen and (min-width: 768px) {
+       font-size: 15px;
+   }
+  
+     @media only screen and (min-width: 992px) {
+       font-size: 17px;
+     }
+  }
