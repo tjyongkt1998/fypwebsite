@@ -1,10 +1,9 @@
 import React, { Fragment } from "react";
-import Navbar from "./Navbar/Navbar"
-import {BrowserRouter, Switch ,Route, withRouter } from 'react-router-dom';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./Navbar/Navbar";
+import { BrowserRouter, Switch, Route, withRouter } from "react-router-dom";
+import "./App.css";
 
- import HomePage from "./HomePage/Homepage.jsx";
+import HomePage from "./HomePage/Homepage.jsx";
 import Topics from "./Topics/Topics.jsx";
 import UISizing from "./UISizing/Uisizing.jsx";
 import Encoding from "./Encoding/Encoding.jsx";
@@ -18,15 +17,15 @@ import ContactUs from "./ContactUs/Contactus.jsx";
 import Translationcomments from "./TranslationComments/Translationcomments.jsx";
 import Stringresources from "./StringResources/Stringresources.jsx";
 import Textconcant from "./TextConcant/Textconcant.jsx";
-import Quiz  from "./Quiz/Quiz.jsx";
+import Quiz from "./Quiz/Quiz.jsx";
 
 function App() {
   return (
     <Fragment>
       <BrowserRouter>
-      <Navbar />
-      <ScrollToTop>
-      <Switch>
+        <Navbar />
+        <ScrollToTop>
+          <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/topics" component={Topics} />
             <Route exact path="/uisizing" component={UISizing} />
@@ -35,15 +34,14 @@ function App() {
             <Route exact path="/bidirectional" component={Bidirectional} />
             <Route exact path="/hardcodedtext" component={Hardcodedtext} />
 
-            <Route exact path="/aboutus" component={Aboutus } />
+            <Route exact path="/aboutus" component={Aboutus} />
             <Route exact path="/contactus" component={ContactUs} />
             <Route exact path="/translationcomments" component={Translationcomments} />
             <Route exact path="/stringresources" component={Stringresources} />
             <Route exact path="/textconcant" component={Textconcant} />
             <Route exact path="/quiz" component={Quiz} />
-
-      </Switch>
-      </ScrollToTop>
+          </Switch>
+        </ScrollToTop>
       </BrowserRouter>
     </Fragment>
   );
