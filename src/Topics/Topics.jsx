@@ -1,5 +1,14 @@
 import React, { Component, Fragment } from "react";
-import { Row, Col, Typography, Form, Input, Button, notification } from "antd";
+import {
+  Row,
+  Col,
+  Typography,
+  Form,
+  Input,
+  Button,
+  notification,
+  Divider,
+} from "antd";
 import { BrowserRouter, Link, withRouter } from "react-router-dom";
 import "../Topics/Topics.css";
 import "../index.css";
@@ -16,19 +25,21 @@ class Topics extends Component {
             marginBottom: "80px",
           }}
         >
-          <Col xs={24} sm={24} md={24} lg={24} xl={24}>
-          <img
-                  src="/assets/topics.png"
-                  alt="homepageTopics"
-                  className="homepage-topics-image"
-                />
+          <Col xs={1} md={2} lg={4} />
+          <Col xs={22} md={20} lg={16}>
+            <img
+              src="/assets/topics.png"
+              alt="homepageTopics"
+              className="homepage-topics-image"
+            />
             <Col span={24} className="homepage-col">
-            {/* <img
+              {/* <img
                   src="/assets/topics.png"
                   alt="homepageTopics"
                   className="homepage-topics-image"
                 /> */}
-              <Text
+
+              <h1
                 style={{
                   textAlign: "center",
                   fontSize: "50px",
@@ -37,19 +48,23 @@ class Topics extends Component {
                 }}
               >
                 Topics
-              </Text>
+              </h1>
             </Col>
+
+            <Divider />
 
             <Col span={24}>
               <br />
               <br />
-              <Text>UI Sizing</Text>
+              <Text>
+                <h2>UI Sizing</h2>
+              </Text>
               <br />
               <br />
             </Col>
 
             <Row style={{}}>
-              <Col span={8}>
+              <Col span={12}>
                 {" "}
                 <img
                   src="/assets/UISizing.png"
@@ -66,17 +81,25 @@ class Topics extends Component {
                   challenges.
                   <br />
                   <br />
-                  <Link to="/uisizing">Click Here!</Link>
-                  <br />
-                  <br />
                 </Text>
               </Col>
+              
+              <br />
+              <br />
             </Row>
+
+            <Text>
+                <h4>
+                  <Link to="/uisizing">Click Here!</Link>
+                </h4>
+              </Text>
+
+            <Divider />
 
             <Col span={24}>
               <br />
               <br />
-              <Text>Encoding</Text>
+              <Text><h2>Encoding</h2></Text>
               <br />
               <br />
             </Col>
@@ -97,15 +120,23 @@ class Topics extends Component {
                   topics of localisation and internationalisation!
                   <br />
                   <br />
-                  <Link to="/encoding">Click Here!</Link>
+  
                 </Text>
               </Col>
             </Row>
 
+            <Text>
+                <h4>
+                  <Link to="/encoding">Click Here!</Link>
+                </h4>
+              </Text>
+
+            <Divider />
+
             <Col span={24}>
               <br />
               <br />
-              <Text>Escape and Comments</Text>
+              <Text><h2>Escape and Comments</h2></Text>
               <br />
               <br />
             </Col>
@@ -126,15 +157,23 @@ class Topics extends Component {
                   topics of localisation and internationalisation!
                   <br />
                   <br />
-                  <Link to="/escapecomments">Click Here!</Link>
+               
                 </Text>
               </Col>
             </Row>
 
+            <Text>
+                <h4>
+                  <Link to="/escapecomments">Click Here!</Link>
+                </h4>
+              </Text>
+
+            <Divider />
+
             <Col span={24}>
               <br />
               <br />
-              <Text>Bidirectional</Text>
+              <Text><h2>Bidirectional</h2></Text>
               <br />
               <br />
             </Col>
@@ -155,15 +194,22 @@ class Topics extends Component {
                   topics of localisation and internationalisation!
                   <br />
                   <br />
-                  <Link to="/bidirectional">Click Here!</Link>
                 </Text>
               </Col>
             </Row>
 
+            <Text>
+                <h4>
+                  <Link to="/bidirectional">Click Here!</Link>
+                </h4>
+              </Text>
+
+            <Divider />
+
             <Col span={24}>
               <br />
               <br />
-              <Text> Hard-Coded Text</Text>
+              <Text><h2>Hard-Coded Text</h2> </Text>
               <br />
               <br />
             </Col>
@@ -184,13 +230,19 @@ class Topics extends Component {
                   topics of localisation and internationalisation!
                   <br />
                   <br />
-                  <Link to="/hardcodedtext">Click Here!</Link>
                 </Text>
               </Col>
             </Row>
 
+            <Text>
+                <h4>
+                  <Link to="/hardcodedtext">Click Here!</Link>
+                </h4>
+              </Text>
 
+            <Divider />
           </Col>
+          <Col xs={1} md={2} lg={4} />
         </Row>
       </Fragment>
     );

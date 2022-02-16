@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from "react";
 import { Row, Col, Typography, Form, Input, Button, notification, Divider } from "antd";
 import { BrowserRouter, Link, withRouter } from "react-router-dom";
-import "../HardCodedText/Hardcodedtext.css";
+import "../Quiz/Quiz.css";
 
 const { Text } = Typography;
 
-class Hardcodedtext extends Component {
+class Quiz extends Component {
  
   render() {
     return (
@@ -173,4 +173,4 @@ class Hardcodedtext extends Component {
 
 export default(
   withRouter,
-  (Hardcodedtext))
+  (Quiz))

@@ -1,12 +1,12 @@
 import React, { Component, Fragment } from "react";
 import { Row, Col, Typography, Form, Input, Button, notification } from "antd";
 import { BrowserRouter, Link, withRouter } from "react-router-dom";
-import "../HomePage/Homepage.css";
-import "../index.css";
+import "../ContactUs/Contactus.css";
+
 
 const { Text } = Typography;
 
-class Homepage extends Component {
+class Contactus extends Component {
   render() {
     return (
       <Fragment>
@@ -122,4 +122,4 @@ class Homepage extends Component {
   }
 }
 
-export default (withRouter, Homepage);
+export default (withRouter, Contactus);

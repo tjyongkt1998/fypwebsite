@@ -10,9 +10,11 @@ import {
   Button,
   Spin,
 } from "antd";
+import "../Navbar/Navbar.css";
 import { BrowserRouter, Link, withRouter } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 const { Text } = Typography;
+
 
 class NavBar extends Component {
   render() {
@@ -42,23 +44,23 @@ class NavBar extends Component {
                 <Row>
                   <Col flex={1}>
                     <Link to="/topics">
-                      <Text className="top-bar-text">Topics</Text>
+                      <Text className="navbar-text">Topics</Text>
                     </Link>
                   </Col>
 
                   <Col flex={1}>
-                    <Link to="/">
-                      <Text className="top-bar-text">Quiz</Text>
+                    <Link to="/quiz">
+                      <Text className="navbar-text">Quiz</Text>
                     </Link>
                   </Col>
                   <Col flex={1}>
-                    <Link to="/">
-                      <Text className="top-bar-text">Contact Us</Text>
+                    <Link to="/contactus">
+                      <Text className="navbar-text">Contact Us</Text>
                     </Link>
                   </Col>
                   <Col flex={1}>
-                    <Link to="/">
-                      <Text className="top-bar-text">About Us</Text>
+                    <Link to="/aboutus">
+                      <Text className="navbar-text">About Us</Text>
                     </Link>
                   </Col>
                 </Row>
