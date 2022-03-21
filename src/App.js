@@ -18,6 +18,7 @@ import Translationcomments from "./TranslationComments/Translationcomments.jsx";
 import Stringresources from "./StringResources/Stringresources.jsx";
 import Textconcant from "./TextConcant/Textconcant.jsx";
 import Quiz from "./Quiz/Quiz.jsx";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             <Route exact path="/textconcant" component={Textconcant} />
             <Route exact path="/quiz" component={Quiz} />
           </Switch>
+          {/* <Footer/> */}
         </ScrollToTop>
       </BrowserRouter>
     </Fragment>

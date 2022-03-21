@@ -3,19 +3,53 @@ import {
   Row,
   Col,
   Typography,
-  Form,
-  Input,
   Button,
   notification,
   Divider,
+  Menu,
+  Dropdown,
+  message,
+  List, 
+  Card, 
 } from "antd";
+import { DownOutlined, BookOutlined } from "@ant-design/icons";
 import { BrowserRouter, Link, withRouter } from "react-router-dom";
 import "../UISizing/Uisizing.css";
 
 const { Text } = Typography;
 
 class Uisizing extends Component {
+  
+
   render() {
+   
+
+    function handleMenuClick(e) {
+      message.info("Click on menu item.");
+      console.log("click", e);
+    }
+
+   
+
+    const menu = (
+      <Menu onClick={handleMenuClick}>
+        <Menu.Item key="1" icon={<BookOutlined />}>
+          English
+        </Menu.Item>
+        <Menu.Item key="2" icon={<BookOutlined />}>
+          Tamil
+        </Menu.Item>
+        <Menu.Item key="3" icon={<BookOutlined />}>
+          Russian
+        </Menu.Item>
+        <Menu.Item key="4" icon={<BookOutlined />}>
+          Chinese
+        </Menu.Item>
+        <Menu.Item key="5" icon={<BookOutlined />}>
+          Japanese
+        </Menu.Item>
+      </Menu>
+    );
     return (
       <Fragment>
         <Row
@@ -25,7 +59,7 @@ class Uisizing extends Component {
           }}
         >
           <Col xs={1} md={2} lg={4} />
-          <Col xs={22} md={20} lg={16}>
+          <Col xs={22} md={20} lg={16} style={{ height: "150vh" }}>
             <Col span={24} className="homepage-col">
               <Text
                 style={{
@@ -316,7 +350,6 @@ class Uisizing extends Component {
                   by adding the required sizing metrics according to required
                   language of localisation.
                   <br />
-               
                 </Text>
               </Col>
 
@@ -374,7 +407,7 @@ class Uisizing extends Component {
 
               <Col span={24}>
                 <Text bold>
-                <br />
+                  <br />
                   <br />
                   <h3>Font Sizing</h3>
                 </Text>
@@ -382,7 +415,22 @@ class Uisizing extends Component {
                 <br />
 
                 <Text>
-                One of the challenges that will be faced during localisation is varying font sizes of languages. Many languages will require a font rescale after being localised, a good example of this is that most latin character languages are still very readable at font size 12px. This is not the case for languages like Chinese, or Japanese, such languages will require an increase in font sizes to be readable. To expect a universal font size is impractical as there are too many things that could vary the font size of respective languages. The solution to this issue is to use a dynamic layout to handle different font sizes if using a universal font size but another more practical solution is to give varying font sizes depending on the language to ensure it fits perfectly in its container and is still readable. A good example of this would be to use CSS if one is building a website, CSS will enable a developer to adapt the font size according to the languages.
+                  One of the challenges that will be faced during localisation
+                  is varying font sizes of languages. Many languages will
+                  require a font rescale after being localised, a good example
+                  of this is that most latin character languages are still very
+                  readable at font size 12px. This is not the case for languages
+                  like Chinese, or Japanese, such languages will require an
+                  increase in font sizes to be readable. To expect a universal
+                  font size is impractical as there are too many things that
+                  could vary the font size of respective languages. The solution
+                  to this issue is to use a dynamic layout to handle different
+                  font sizes if using a universal font size but another more
+                  practical solution is to give varying font sizes depending on
+                  the language to ensure it fits perfectly in its container and
+                  is still readable. A good example of this would be to use CSS
+                  if one is building a website, CSS will enable a developer to
+                  adapt the font size according to the languages.
                   <br />
                   <br />
                   <img
@@ -393,7 +441,8 @@ class Uisizing extends Component {
                   />
                   <br />
                   <Text>
-                    Sample code which would use for adjust font size for tamil specifically using CSS for website development.
+                    Sample code which would use for adjust font size for tamil
+                    specifically using CSS for website development.
                   </Text>
                   <br />
                   <br />
@@ -418,26 +467,26 @@ class Uisizing extends Component {
             </Col>
 
             <Row style={{}}>
-              <Col span={8}>
-                {" "}
-                <img
-                  src="/assets/UISizing.png"
-                  alt="topicsUI"
-                  className="topics-UI-Image"
-                />
-              </Col>
-              <Col span={16}>
-                <Text>
-                  Learn about localisation topics with interactive features!
-                  Help better enable your understanding of localisation topics
-                  with visualising changes and issues you may face while
-                  learning about localisation and internationalisation!
-                  <br />
-                  <br />
-                </Text>
+              <Col span={24}>
+                <Dropdown overlay={menu}>
+                  <Button>
+                    Languages <DownOutlined />
+                  </Button>
+                </Dropdown>
+
+                <div className="lang">
+                  <div className={this.props.lang}></div>
+                  <ul class="dropdown">{}</ul>
+                </div>
               </Col>
             </Row>
-            <Divider />
+            <Divider style={{ marginTop: "100px", marginBottom: "100px" }} />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </Col>
           <Col xs={1} md={2} lg={4} />
         </Row>
