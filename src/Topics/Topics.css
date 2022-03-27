@@ -26,3 +26,16 @@
        font-size: 17px;
      }
   }
+
+  .topics-subtopics {
+    text-align: center;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 30px;
+  }
+
+  .topics-body {
+    text-align: center;
+    font-family: Lato;
+    font-size: 23px;
+  }
+

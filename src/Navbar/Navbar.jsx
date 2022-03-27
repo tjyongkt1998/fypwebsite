@@ -1,35 +1,21 @@
 import React, { Component, Fragment } from "react";
-import {
-  Row,
-  Col,
-  Typography,
-  Menu,
-  Popover,
-  Divider,
-  Drawer,
-  Button,
-  Spin,
-  Layout,
-} from "antd";
-import { HomeOutlined } from "@ant-design/icons";
+import { Row, Col, Typography} from "antd";
+// import { HomeOutlined } from "@ant-design/icons";
 import "../Navbar/Navbar.css";
-import { BrowserRouter, Link, withRouter } from "react-router-dom";
-import { MenuOutlined } from "@ant-design/icons";
+import { Link, withRouter } from "react-router-dom";
+
 const { Text } = Typography;
 
 class NavBar extends Component {
   render() {
     return (
-    
       <Fragment>
-        
         <Row
           style={{
             backgroundColor: "grey",
           }}
         >
           <Col md={24}>
-
             {/* <Layout
             style={{
               position: "fixed",
@@ -56,10 +42,16 @@ class NavBar extends Component {
                 }}
               >
                 <Row>
-                  <Col flex={1}>
+                  {/* <Col flex={1}>
                     <Button icon={<HomeOutlined />}>
                       <Link to="/" />
                     </Button>
+                  </Col> */}
+
+                  <Col flex={1}>
+                    <Link to="/">
+                      <Text className="navbar-text">Home</Text>
+                    </Link>
                   </Col>
 
                   <Col flex={1}>
@@ -73,7 +65,7 @@ class NavBar extends Component {
                       <Text className="navbar-text">Quiz</Text>
                     </Link>
                   </Col>
-                  <Col flex={1}>
+                  {/* <Col flex={1}>
                     <Link to="/contactus">
                       <Text className="navbar-text">Contact Us</Text>
                     </Link>
@@ -82,7 +74,7 @@ class NavBar extends Component {
                     <Link to="/aboutus">
                       <Text className="navbar-text">About Us</Text>
                     </Link>
-                  </Col>
+                  </Col> */}
                 </Row>
               </Col>
             </Row>

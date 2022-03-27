@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
-import { Row, Col, Typography, Form, Input, Button, notification,Divider } from "antd";
-import { BrowserRouter, Link, withRouter } from "react-router-dom";
+import { Row, Col, Typography,Divider } from "antd";
+import {  withRouter } from "react-router-dom";
 import "../Bidirectional/Bidirectional.css";
 
 const { Text } = Typography;
@@ -16,8 +16,8 @@ class Bidirectional extends Component {
           marginBottom: "80px",
         }}
       >
-        <Col xs={1} md={2} lg={4} />
-        <Col xs={22} md={20} lg={16}>
+        <Col xs={1} md={2} lg={4} style={{ backgroundColor: "#F0F0F0" }} />
+        <Col xs={22} md={20} lg={16} style={{ paddingRight: "20px", paddingLeft: "20px" }}>
           <Col span={24} className="homepage-col">
             <Text
               style={{
@@ -52,11 +52,7 @@ class Bidirectional extends Component {
             </Col>
             <Col span={16}>
               <Text>
-                Learn about key and common concepts of UI Sizing in
-                Localisation. See how UI is affected by localisation and the
-                commmon challenges. Learn how to implement concepts to have UI
-                that can adapt to multiple languages and overcome these
-                challenges.
+              ᠺᠢᠷᠢᠯ ᠮᠣᠩᠭᠣᠯ ᠥᠰᠥᠭ ᠪᠣᠯᠦᠨ ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠮᠣᠩᠭᠣᠯ ᠥᠰᠥᠭ ᠦᠨ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠬᠦᠷᠪᠠᠭᠦᠯᠬᠦ ᠰᠢᠰᠲ᠋ᠧᠮ
                 <br />
                 <br />
               </Text>
@@ -164,7 +160,7 @@ class Bidirectional extends Component {
           </Row>
           <Divider />
         </Col>
-        <Col xs={1} md={2} lg={4} />
+        <Col xs={1} md={2} lg={4} style={{ backgroundColor: "#F0F0F0" }} />
       </Row>
     </Fragment>
     );

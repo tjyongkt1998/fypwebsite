@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Navbar from "./Navbar/Navbar";
 import { BrowserRouter, Switch, Route, withRouter } from "react-router-dom";
 import "./App.css";
+import logo from './logo.svg';
 
 import HomePage from "./HomePage/Homepage.jsx";
 import Topics from "./Topics/Topics.jsx";
@@ -18,6 +19,7 @@ import Translationcomments from "./TranslationComments/Translationcomments.jsx";
 import Stringresources from "./StringResources/Stringresources.jsx";
 import Textconcant from "./TextConcant/Textconcant.jsx";
 import Quiz from "./Quiz/Quiz.jsx";
+import QuizQuestions from "./QuizQuestions/QuizQuestions.jsx";
 import Footer from "./Footer/Footer";
 
 function App() {
@@ -41,6 +43,7 @@ function App() {
             <Route exact path="/stringresources" component={Stringresources} />
             <Route exact path="/textconcant" component={Textconcant} />
             <Route exact path="/quiz" component={Quiz} />
+            <Route exact path="/quizquestions" component={QuizQuestions} />
           </Switch>
           {/* <Footer/> */}
         </ScrollToTop>

@@ -1,18 +1,10 @@
 import React, { Component, Fragment } from "react";
 import {
-  Row,
   Col,
-  Typography,
-  Form,
-  Input,
-  Button,
-  notification,
-  Divider,
 } from "antd";
-import { BrowserRouter, Link, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import "../Footer/Footer.css";
 
-const { Text } = Typography;
 
 class Footer extends Component {
   render() {

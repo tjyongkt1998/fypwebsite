@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
-import { Row, Col, Typography, Form, Input, Button, notification } from "antd";
-import { BrowserRouter, Link, withRouter } from "react-router-dom";
+import { Row, Col, Typography } from "antd";
+import { Link, withRouter } from "react-router-dom";
 import "../HomePage/Homepage.css";
 import "../index.css";
 
@@ -13,19 +13,34 @@ class Homepage extends Component {
         <Row
           style={{
             textAlign: "center",
-            marginBottom: "80px",
+          
           }}
         >
-          <Col xs={1} md={2} lg={4} />
+          <Col xs={1} md={2} lg={4} style={{ backgroundColor: "#F0F0F0" }} />
           <Col xs={22} md={20} lg={16}>
             <Row>
-              <img
-                span={12}
-                src="/assets/homebanner.jpg"
-                alt="homepagebanner"
-              />
+              <Row>
+                <Col xs={1} md={2} lg={4} />
+                <Col span={16}>
+                  {/* <img
+                  span={8}
+                  src="/assets/homebanner.jpg"
+                  alt="homepagebanner"
+                /> */}
 
-              <img span={12} src="/assets/banner.jpg" alt="homebanner" />
+                  <img
+                    src="/assets/banner.jpg"
+                    alt="homebanner"
+                    style={{
+                      display: "block",
+                      marginLeft: "auto",
+                      marginRight: "auto",
+                      padding: "5px",
+                    }}
+                  />
+                </Col>
+                <Col xs={1} md={2} lg={4} />
+              </Row>
 
               <Col span={24} className="homepage-col">
                 <Text
@@ -120,7 +135,7 @@ class Homepage extends Component {
             </Row>
           </Col>
 
-          <Col xs={1} md={2} lg={4} />
+          <Col xs={1} md={2} lg={4} style={{ backgroundColor: "#F0F0F0" }} />
         </Row>
       </Fragment>
     );

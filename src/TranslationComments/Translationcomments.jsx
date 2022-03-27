@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
-import { Row, Col, Typography, Form, Input, Button, notification, Divider } from "antd";
-import { BrowserRouter, Link, withRouter } from "react-router-dom";
+import { Row, Col, Typography, Divider } from "antd";
+import {withRouter } from "react-router-dom";
 import "../TranslationComments/Translationcomments.css";
 
 const { Text } = Typography;
