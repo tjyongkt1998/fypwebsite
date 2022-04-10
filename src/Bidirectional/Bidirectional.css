@@ -6,3 +6,62 @@
   font-family: lato-bold;
   font-size: 50px;
 }
+
+.bidi-header {
+  text-align: center;
+  font-family: Lato-bold;
+  font-size: 25px;
+}
+
+.bidi-intro {
+  text-align: center;
+  font-family: Lato;
+  font-size: 23px;
+}
+
+.dropdown-button {
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+}
+
+.dropdown-text {
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+}
+
+.hidden {
+  display: none;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+}
+.unhidden {
+  display: block;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.unhidden2 {
+  display: block;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.unhiddenChinese {
+  display: block;
+  text-align: center;
+  font-family: Lato;
+  font-size: 25px;
+}
+
+.unhiddenJapanese {
+  display: block;
+  text-align: center;
+  font-family: Lato;
+  font-size: 25px;
+}

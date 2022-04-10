@@ -47,8 +47,8 @@ class Quiz extends Component {
           <Col span={24}>
             <br />
             <br />
-            <Text>
-              <h2>UI Sizing</h2>
+            <Text className="quiz-subtopics">
+             <h2>UI Sizing</h2> 
             </Text>
             <br />
             <br />
@@ -64,7 +64,7 @@ class Quiz extends Component {
               />
             </Col>
             <Col span={8}>
-              <Text>
+              <Text className={"quiz-body "}>
                 Learn about key and common concepts of UI Sizing in
                 Localisation. See how UI is affected by localisation and the
                 commmon challenges. Learn how to implement concepts to have UI
@@ -79,9 +79,9 @@ class Quiz extends Component {
             <br />
           </Row>
 
-          <Text>
+          <Text className={"quiz-button"}>
             <h4>
-              <Link to="/uisizing">Click Here!</Link>
+              <Link to="/quizquestions">Click Here!</Link>
             </h4>
           </Text>
 
@@ -90,7 +90,7 @@ class Quiz extends Component {
           <Col span={24}>
             <br />
             <br />
-            <Text>
+            <Text className="quiz-subtopics">
               <h2>Bidirectional</h2>
             </Text>
             <br />
@@ -107,7 +107,7 @@ class Quiz extends Component {
               />
             </Col>
             <Col span={8}>
-              <Text>
+            <Text className={"quiz-body "}>
                 Learn about key and common concepts of Bidirectional Languages
                 in Localisation. See how different languages are affected by
                 localisation and the commmon challenges. Learn how to
@@ -119,9 +119,9 @@ class Quiz extends Component {
             </Col>
           </Row>
 
-          <Text>
+          <Text className={"quiz-button"}>
             <h4>
-              <Link to="/bidirectional">Click Here!</Link>
+              <Link to="/quizquestions">Click Here!</Link>
             </h4>
           </Text>
           <Divider />
@@ -129,8 +129,8 @@ class Quiz extends Component {
           <Col span={24}>
             <br />
             <br />
-            <Text>
-              <h2>Encoding</h2>
+            <Text className="quiz-subtopics">
+            <h2>Encoding</h2> 
             </Text>
             <br />
             <br />
@@ -146,7 +146,7 @@ class Quiz extends Component {
               />
             </Col>
             <Col span={8}>
-              <Text>
+            <Text className={"quiz-body "}>
                 Learn about key and common concepts of Encoding in
                 Localisation.Test you understanding of your knowledge on
                 common concepts and challenges of Encoding and Localisation!
@@ -158,9 +158,9 @@ class Quiz extends Component {
             </Col>
           </Row>
 
-          <Text>
+          <Text className={"quiz-button"}>
             <h4>
-              <Link to="/encoding">Click Here!</Link>
+              <Link to="/quizquestions">Click Here!</Link>
             </h4>
           </Text>
 
@@ -169,7 +169,7 @@ class Quiz extends Component {
           <Col span={24}>
             <br />
             <br />
-            <Text>
+            <Text className="quiz-subtopics">
               <h2>Escape and Comments</h2>
             </Text>
             <br />
@@ -186,7 +186,7 @@ class Quiz extends Component {
               />
             </Col>
             <Col span={8}>
-              <Text>
+            <Text className={"quiz-body "}>
                 Learn about key and common concepts of Escape and Comments in
                 Localisation. Test you understanding of your knowledge on
                 common concepts and challenges of escape and comments in
@@ -199,9 +199,9 @@ class Quiz extends Component {
             </Col>
           </Row>
 
-          <Text>
+          <Text className={"quiz-button"}>
             <h4>
-              <Link to="/escapecomments">Click Here!</Link>
+              <Link to="/quizquestions">Click Here!</Link>
             </h4>
           </Text>
 
@@ -210,8 +210,8 @@ class Quiz extends Component {
           <Col span={24}>
             <br />
             <br />
-            <Text>
-              <h2>Hard-Coded Text</h2>{" "}
+            <Text className="quiz-subtopics">
+             <h2>Hard-Coded Text</h2>
             </Text>
             <br />
             <br />
@@ -227,7 +227,7 @@ class Quiz extends Component {
               />
             </Col>
             <Col span={8}>
-              <Text>
+            <Text className={"quiz-body "}>
                 Learn about key and common concepts of Hardcoded texts in
                 Localisation. Test you understanding of your knowledge on
                 common concepts and challenges of hardcoded text in
@@ -240,9 +240,9 @@ class Quiz extends Component {
             </Col>
           </Row>
 
-          <Text>
+          <Text className={"quiz-button"}>
             <h4>
-              <Link to="/hardcodedtext">Click Here!</Link>
+              <Link to="/quizquestions">Click Here!</Link>
             </h4>
           </Text>
 
@@ -251,8 +251,8 @@ class Quiz extends Component {
           <Col span={24}>
             <br />
             <br />
-            <Text>
-              <h2>String Resources</h2>
+            <Text className="quiz-subtopics">
+          <h2>String Resources</h2> 
             </Text>
             <br />
             <br />
@@ -268,7 +268,7 @@ class Quiz extends Component {
               />
             </Col>
             <Col span={8}>
-              <Text>
+            <Text className={"quiz-body "}>
                 Learn about key and common concepts of String Resources in
                 Localisation. Test you understanding of your knowledge on
                 common concepts and challenges of String Resources in
@@ -281,9 +281,9 @@ class Quiz extends Component {
             </Col>
           </Row>
 
-          <Text>
+          <Text className={"quiz-button"}>
             <h4>
-              <Link to="/stringresources">Click Here!</Link>
+              <Link to="/quizquestions">Click Here!</Link>
             </h4>
           </Text>
 
@@ -292,8 +292,8 @@ class Quiz extends Component {
           <Col span={24}>
             <br />
             <br />
-            <Text>
-              <h2>Translation Comments</h2>{" "}
+            <Text className="quiz-subtopics">
+            <h2>Translation Comments</h2> 
             </Text>
             <br />
             <br />
@@ -309,7 +309,7 @@ class Quiz extends Component {
               />
             </Col>
             <Col span={8}>
-              <Text>
+            <Text className={"quiz-body "}>
                 Learn about key and common concepts of Translation Comments in
                 Localisation. Test you understanding of your knowledge on
                 common concepts and challenges of TranslationComments in
@@ -322,9 +322,9 @@ class Quiz extends Component {
             </Col>
           </Row>
 
-          <Text>
+          <Text className={"quiz-button"}>
             <h4>
-              <Link to="/translationcomments">Click Here!</Link>
+              <Link to="/quizquestions">Click Here!</Link>
             </h4>
           </Text>
 
@@ -333,8 +333,8 @@ class Quiz extends Component {
           <Col span={24}>
             <br />
             <br />
-            <Text>
-              <h2>Text Concantenation</h2>{" "}
+            <Text className="quiz-subtopics">
+           <h2>Text Concantenation</h2>
             </Text>
             <br />
             <br />
@@ -350,7 +350,7 @@ class Quiz extends Component {
               />
             </Col>
             <Col span={8}>
-              <Text>
+            <Text className={"quiz-body "}>
                 Learn about key and common concepts of Text Concatenation in
                 Localisation. Test you understanding of your knowledge on
                 common concepts and challenges of Concatenation in
@@ -362,9 +362,9 @@ class Quiz extends Component {
             </Col>
           </Row>
 
-          <Text>
+          <Text className={"quiz-button"}>
             <h4>
-              <Link to="/textconcant">Click Here!</Link>
+              <Link to="/quizquestions">Click Here!</Link>
             </h4>
           </Text>
 

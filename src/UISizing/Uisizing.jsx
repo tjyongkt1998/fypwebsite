@@ -15,7 +15,7 @@ class Uisizing extends Component {
       document.getElementById("uisizingEnglish").classList.add("unhidden2");
       document.getElementById("uisizingEnglish").classList.remove("hidden");
       document.getElementById("uisizingRussian").classList.add("hidden");
-      document.getElementById("uisizingRussian").classList.remove("unhidden");
+      document.getElementById("uisizingRussian").classList.remove("unhidden2");
       document.getElementById("uisizingChinese").classList.add("hidden");
       document.getElementById("uisizingChinese").classList.remove("unhidden2");
       document.getElementById("uisizingJapanese").classList.add("hidden");
@@ -62,39 +62,27 @@ class Uisizing extends Component {
       document.getElementById("uisizingRussian2").classList.add("hidden");
       document.getElementById("uisizingRussian2").classList.remove("unhidden");
       document.getElementById("uisizingChinese2").classList.add("hidden");
-      document
-        .getElementById("uisizingChinese2")
-        .classList.remove("unhiddenChinese");
+      document.getElementById("uisizingChinese2").classList.remove("unhiddenChinese");
       document.getElementById("uisizingJapanese2").classList.add("hidden");
-      document
-        .getElementById("uisizingJapanese2")
-        .classList.remove("unhiddenJapanese");
+      document.getElementById("uisizingJapanese2").classList.remove("unhiddenJapanese");
     } else if (e.key === "2") {
       document.getElementById("uisizingEnglish2").classList.add("hidden");
       document.getElementById("uisizingEnglish2").classList.remove("unhidden");
       document.getElementById("uisizingRussian2").classList.add("unhidden");
       document.getElementById("uisizingRussian2").classList.remove("hidden");
       document.getElementById("uisizingChinese2").classList.add("hidden");
-      document
-        .getElementById("uisizingChinese2")
-        .classList.remove("unhiddenChinese");
+      document.getElementById("uisizingChinese2").classList.remove("unhiddenChinese");
       document.getElementById("uisizingJapanese2").classList.add("hidden");
-      document
-        .getElementById("uisizingJapanese2")
-        .classList.remove("unhiddenJapanese");
+      document.getElementById("uisizingJapanese2").classList.remove("unhiddenJapanese");
     } else if (e.key === "3") {
       document.getElementById("uisizingEnglish2").classList.add("hidden");
       document.getElementById("uisizingEnglish2").classList.remove("unhidden");
       document.getElementById("uisizingRussian2").classList.add("hidden");
       document.getElementById("uisizingRussian2").classList.remove("unhidden");
-      document
-        .getElementById("uisizingChinese2")
-        .classList.add("unhiddenChinese");
+      document.getElementById("uisizingChinese2").classList.add("unhiddenChinese");
       document.getElementById("uisizingChinese2").classList.remove("hidden");
       document.getElementById("uisizingJapanese2").classList.add("hidden");
-      document
-        .getElementById("uisizingJapanese2")
-        .classList.remove("unhiddenJapanese");
+      document.getElementById("uisizingJapanese2").classList.remove("unhiddenJapanese");
 
       console.log("ifStatement", this.state);
     } else if (e.key === "4") {
@@ -103,12 +91,8 @@ class Uisizing extends Component {
       document.getElementById("uisizingRussian2").classList.add("hidden");
       document.getElementById("uisizingRussian2").classList.remove("unhidden");
       document.getElementById("uisizingChinese2").classList.add("hidden");
-      document
-        .getElementById("uisizingChinese2")
-        .classList.remove("unhiddenChinese");
-      document
-        .getElementById("uisizingJapanese2")
-        .classList.add("unhiddenJapanese");
+      document.getElementById("uisizingChinese2").classList.remove("unhiddenChinese");
+      document.getElementById("uisizingJapanese2").classList.add("unhiddenJapanese");
       document.getElementById("uisizingJapanese2").classList.remove("hidden");
 
       console.log("ifStatement", this.state);
@@ -333,74 +317,6 @@ class Uisizing extends Component {
         </Menu.Item>
       </Menu>
     );
-
-    // const menu3 = (
-    //   <Menu onClick={this.handleMenuClick3}>
-    //     <Menu.Item key="1" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       English
-    //     </Menu.Item>
-    //     <Menu.Item key="2" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Russian
-    //     </Menu.Item>
-    //     <Menu.Item key="3" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Chinese
-    //     </Menu.Item>
-    //     <Menu.Item key="4" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Japanese
-    //     </Menu.Item>
-    //   </Menu>
-    // );
-
-    // const menu4 = (
-    //   <Menu onClick={this.handleMenuClick4}>
-    //     <Menu.Item key="1" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       English
-    //     </Menu.Item>
-    //     <Menu.Item key="2" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Russian
-    //     </Menu.Item>
-    //     <Menu.Item key="3" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Chinese
-    //     </Menu.Item>
-    //     <Menu.Item key="4" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Japanese
-    //     </Menu.Item>
-    //   </Menu>
-    // );
-
-    // const menu5 = (
-    //   <Menu onClick={this.handleMenuClick5}>
-    //     <Menu.Item key="1" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       English
-    //     </Menu.Item>
-    //     <Menu.Item key="2" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Russian
-    //     </Menu.Item>
-    //     <Menu.Item key="3" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Chinese
-    //     </Menu.Item>
-    //     <Menu.Item key="4" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Japanese
-    //     </Menu.Item>
-    //   </Menu>
-    // );
-
-    // const menu6 = (
-    //   <Menu onClick={this.handleMenuClick6}>
-    //     <Menu.Item key="1" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       English
-    //     </Menu.Item>
-    //     <Menu.Item key="2" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Russian
-    //     </Menu.Item>
-    //     <Menu.Item key="3" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Chinese
-    //     </Menu.Item>
-    //     <Menu.Item key="4" className={"dropdown-text"} icon={<BookOutlined />}>
-    //       Japanese
-    //     </Menu.Item>
-    //   </Menu>
-    // );
 
     return (
       <Fragment>
@@ -752,7 +668,7 @@ class Uisizing extends Component {
                   <br />
                   <br />
                   <img
-                    style={{ width: "25%", height: "25%" }}
+                    style={{ width: "40%", height: "30%" }}
                     src="/assets/uiSizing_linebreak_japan.png"
                     alt="topicsUI"
                     className="topics-UI-Image"
@@ -842,6 +758,7 @@ class Uisizing extends Component {
               <br />
               <br />
 
+<Col span={1}/>
               <Col
                 span={7}
                 style={{ outline: "solid black", marginTop: "20px" }}
@@ -861,7 +778,7 @@ class Uisizing extends Component {
                 </div>
               </Col>
 
-              <Col span={10}>
+              <Col span={8}>
                 {/* <Text className="uisizing-header">
                   <h3>Sizing Metrics</h3>
                 </Text> */}
@@ -885,154 +802,41 @@ class Uisizing extends Component {
                   "UIサイジングのローカリゼーションの問題と概念について学びましょう！"
                 </div>
               </Col>
+              <Col span={1}/>
             </Row>
             <br />
             <br />
             <br />
 
             <Row>
-              <Col span={7}>
-                <Text>Issues to note</Text>
-              </Col>
-
-              <Col span={10} />
-
-              <Col span={7}>
-                <Text>Issues to note</Text>
-              </Col>
-            </Row>
-
-            {/* <Row style={{}}>
-              <Col span={12}>
-                <Dropdown overlay={menu3}>
-                <Button className={"dropdown-button"}>
-                    Languages <DownOutlined />
-                  </Button>
-                </Dropdown>
-              </Col>
-
-              <Col span={12}>
-                <Dropdown overlay={menu4}>
-                <Button className={"dropdown-button"}>
-                    Languages <DownOutlined />
-                  </Button>
-                </Dropdown>
-              </Col>
-              <br />
-              <br />
-              <br />
-
-              <Col
-                span={7}
-                style={{ outline: "solid black", marginTop: "20px" }}
-              >
-                <div id="uisizingEnglish3" className={"unhidden2"}>
-                  "Learn about UI Sizing localisation issues and concepts!"
-                </div>
-                <div id="uisizingRussian3" className={"hidden"}>
-                  " Узнайте о проблемах и концепциях локализации размера
-                  пользовательского интерфейса!"
-                </div>
-                <div id="uisizingChinese3" className={"hidden"}>
-                  "了解 UI Sizing 本地化问题和概念！"
-                </div>
-                <div id="uisizingJapanese3" className={"hidden"}>
-                  "UIサイジングのローカリゼーションの問題と概念について学びましょう！"
-                </div>
-              </Col>
+            <Col span={1}/>
               <Col span={10}>
-                <Text className="uisizing-header">
-                  <h3>Word Wrapping</h3>
+                <Text className="uisizing-interactivity"> <b>UI Sizing Issues Detected </b><br/>
+                <br/>
+                All Languages have the same phrases<br/>
+               <b> English</b> : No Word Wrapping/Breaking and No Responsive Design!<br/>
+               <b> Russian</b> : No Word Wrapping/Breaking,No Responsive Design and Expansion of Sentence Length! <br/>
+               <b> Chinese</b> : No Word Wrapping/Breaking and Responsive Design, Shrinking of Sentence Length and no Font Accountability(Small Fonts)!<br/>
+               <b>  Japanese</b> : No Word Wrapping/Breaking and Responsive Design, Expansion of Sentence Length and no Font Accountability(Small Fonts)!<br/>
                 </Text>
               </Col>
 
-              <Col
-                span={7}
-                style={{ outline: "solid black", marginTop: "20px" }}
-              >
-                <div id="uisizingEnglish4" className={"unhidden"}>
-                  "Learn about UI Sizing localisation issues and concepts!"
-                </div>
-                <div id="uisizingRussian4" className={"hidden"}>
-                  " Узнайте о проблемах и концепциях локализации размера
-                  пользовательского интерфейса!"
-                </div>
-                <div id="uisizingChinese4" className={"hidden"}>
-                  "了解 UI Sizing 本地化问题和概念！"
-                </div>
-                <div id="uisizingJapanese4" className={"hidden"}>
-                  "UIサイジングのローカリゼーションの問題と概念について学びましょう！"
-                </div>
-              </Col>
-            </Row>
-            <Divider style={{ marginTop: "100px", marginBottom: "100px" }} />
-            <br />
-            <br />
-            <br />
-            <Row style={{}}>
-              <Col span={12}>
-                <Dropdown overlay={menu5}>
-                <Button className={"dropdown-button"}>
-                    Languages <DownOutlined />
-                  </Button>
-                </Dropdown>
-              </Col>
+              <Col span={3} />
 
-              <Col span={12}>
-                <Dropdown overlay={menu6}>
-                <Button className={"dropdown-button"}>
-                    Languages <DownOutlined />
-                  </Button>
-                </Dropdown>
-              </Col>
-              <br />
-              <br />
-              <br />
-
-              <Col
-                span={7}
-                style={{ outline: "solid black", marginTop: "20px" }}
-              >
-                <div id="uisizingEnglish5" className={"unhidden"}>
-                  "Learn about UI Sizing localisation issues and concepts!"
-                </div>
-                <div id="uisizingRussian5" className={"hidden"}>
-                  " Узнайте о проблемах и концепциях локализации размера
-                  пользовательского интерфейса!"
-                </div>
-                <div id="uisizingChinese5" className={"hidden"}>
-                  "了解 UI Sizing 本地化问题和概念！"
-                </div>
-                <div id="uisizingJapanese5" className={"hidden"}>
-                  "UIサイジングのローカリゼーションの問題と概念について学びましょう！"
-                </div>
-              </Col>
-
-              <Col span={10}>
-                <Text className="uisizing-header">
-                  <h3>Font Accountability</h3>
+              <Col span={9}>
+                <Text className="uisizing-interactivity"> <b>UI Sizing Fixes Implemented </b><br/>
+                <br/>
+                All Languages have the same phrases<br/>
+               <b> English</b> : Word Wrapping/Breaking and Responsive Design!<br/>
+               <b> Russian</b> : Word Wrapping/Breaking, Responsive Design and Expansion of Sentence Length ! <br/>
+               <b> Chinese</b> : Wrapping/Breaking, Responsive Design, Shrinking of Sentence Length and Accountability(Increased Fonts)!<br/>
+               <b>  Japanese</b> : Wrapping/Breaking, Responsive Design, Expansion of Sentence Length and Font Accountability(Increased Fonts)!<br/>
                 </Text>
               </Col>
 
-              <Col
-                span={7}
-                style={{ outline: "solid black", marginTop: "20px" }}
-              >
-                <div id="uisizingEnglish6" className={"unhidden"}>
-                  "Learn about UI Sizing localisation issues and concepts!"
-                </div>
-                <div id="uisizingRussian6" className={"hidden"}>
-                  " Узнайте о проблемах и концепциях локализации размера
-                  пользовательского интерфейса!"
-                </div>
-                <div id="uisizingChinese6" className={"hidden"}>
-                  "了解 UI Sizing 本地化问题和概念！"
-                </div>
-                <div id="uisizingJapanese6" className={"hidden"}>
-                  "UIサイジングのローカリゼーションの問題と概念について学びましょう！"
-                </div>
-              </Col>
-            </Row> */}
+              <Col span={1}/>
+            </Row>
+
             <Divider style={{ marginTop: "100px", marginBottom: "100px" }} />
             <br />
             <br />

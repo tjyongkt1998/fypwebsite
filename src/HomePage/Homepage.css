@@ -5,4 +5,19 @@
     padding-bottom: 4px;
   }
 
-  
+  .homepage-header{
+    text-align: center;
+    font-family: Lato-bold;
+    font-size: 35px;
+  }
+
+  .homepage-button {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .homepage-body {
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+  }

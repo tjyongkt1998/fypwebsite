@@ -80,7 +80,7 @@ class Topics extends Component {
               <br />
             </Row>
 
-            <Text>
+            <Text className={"topics-button"}>
               <h4>
                 <Link to="/uisizing">Click Here!</Link>
               </h4>
@@ -120,7 +120,7 @@ class Topics extends Component {
               </Col>
             </Row>
 
-            <Text>
+            <Text className={"topics-button"}>
               <h4>
                 <Link to="/bidirectional">Click Here!</Link>
               </h4>
@@ -159,7 +159,7 @@ class Topics extends Component {
               </Col>
             </Row>
 
-            <Text>
+            <Text className={"topics-button"}>
               <h4>
                 <Link to="/encoding">Click Here!</Link>
               </h4>
@@ -200,7 +200,7 @@ class Topics extends Component {
               </Col>
             </Row>
 
-            <Text>
+            <Text className={"topics-button"}>
               <h4>
                 <Link to="/escapecomments">Click Here!</Link>
               </h4>
@@ -241,7 +241,7 @@ class Topics extends Component {
               </Col>
             </Row>
 
-            <Text>
+            <Text className={"topics-button"}>
               <h4>
                 <Link to="/hardcodedtext">Click Here!</Link>
               </h4>
@@ -282,7 +282,7 @@ class Topics extends Component {
               </Col>
             </Row>
 
-            <Text>
+            <Text className={"topics-button"}>
               <h4>
                 <Link to="/stringresources">Click Here!</Link>
               </h4>
@@ -323,7 +323,7 @@ class Topics extends Component {
               </Col>
             </Row>
 
-            <Text>
+            <Text className={"topics-button"}>
               <h4>
                 <Link to="/translationcomments">Click Here!</Link>
               </h4>
@@ -363,7 +363,7 @@ class Topics extends Component {
               </Col>
             </Row>
 
-            <Text>
+            <Text className={"topics-button"}>
               <h4>
                 <Link to="/textconcant">Click Here!</Link>
               </h4>

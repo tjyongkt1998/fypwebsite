@@ -19,28 +19,27 @@ class Homepage extends Component {
           <Col xs={1} md={2} lg={4} style={{ backgroundColor: "#F0F0F0" }} />
           <Col xs={22} md={20} lg={16}>
             <Row>
-              <Row>
+              
                 <Col xs={1} md={2} lg={4} />
-                <Col span={16}>
+                <Col span={24}>
                   {/* <img
                   span={8}
                   src="/assets/homebanner.jpg"
                   alt="homepagebanner"
                 /> */}
 
+                
                   <img
                     src="/assets/banner.jpg"
                     alt="homebanner"
                     style={{
-                      display: "block",
-                      marginLeft: "auto",
-                      marginRight: "auto",
-                      padding: "5px",
+                     width:"100%",
+                     height:"80%"
                     }}
                   />
                 </Col>
                 <Col xs={1} md={2} lg={4} />
-              </Row>
+              
 
               <Col span={24} className="homepage-col">
                 <Text
@@ -53,14 +52,16 @@ class Homepage extends Component {
                   Localisation Website
                 </Text>
               </Col>
-
-              <Col span={24}>
+                  
+                  <Col span={5}/>
+              <Col span={14}>
                 <br />
                 <br />
-                <Text>
-                  <h1>TOPICS</h1>
+                <Text className="homepage-header">
+                  TOPICS
                 </Text>
               </Col>
+              <Col span={5}/>
 
               <Row style={{}}>
                 <Col span={8}>
@@ -71,7 +72,7 @@ class Homepage extends Component {
                     className="homepage-topics-image"
                   />
                 </Col>
-                <Col span={16} style={{ marginTop: "50px" }}>
+                <Col span={13} style={{ marginTop: "50px" }} className="homepage-body">
                   <Text>
                     Learn about key and common concepts of Localisaiton and
                     Internationalisations! Browse through our list of topics to
@@ -80,12 +81,13 @@ class Homepage extends Component {
                     <br />
                     <br />
                   </Text>
-                  <Text>
-                    <h4>
+                  <Text className={"homepage-button"}>
+                   
                       <Link to="/topics">Click Here!</Link>
-                    </h4>
+                   
                   </Text>
                 </Col>
+                <Col span={3}/>
 
                 <br />
                 <br />
@@ -94,8 +96,8 @@ class Homepage extends Component {
               <Col span={24}>
                 <br />
                 <br />
-                <Text>
-                  <h1>QUIZ</h1>
+                <Text className="homepage-header">
+                  QUIZ
                 </Text>
               </Col>
 
@@ -106,20 +108,20 @@ class Homepage extends Component {
                     src="/assets/quiz.png"
                     alt="homepageQuiz"
                     className="homepage-quiz-image"
-                    style={{ width: "70%", height: "70%" }}
+                    style={{ width: "60%", height: "50%" }}
                   />
                 </Col>
-                <Col span={16} style={{ marginTop: "50px" }}>
+                <Col span={13} style={{ marginTop: "50px" }} className="homepage-body">
                   <Text>
                     Test you understanding of your knowledge on common concepts
                     and challenges of Localisation! Take our quick quiz on the
                     topics of localisation and internationalisation!
                     <br />
                     <br />
-                    <Text>
-                      <h4>
-                        <Link to="/topics">Click Here!</Link>
-                      </h4>
+                    <Text className="homepage-button">
+                      
+                        <Link to="/quiz">Click Here!</Link>
+                      
                     </Text>
                     <br />
                     <br />
@@ -131,6 +133,7 @@ class Homepage extends Component {
                     <br />
                   </Text>
                 </Col>
+                <Col span={3}/>
               </Row>
             </Row>
           </Col>

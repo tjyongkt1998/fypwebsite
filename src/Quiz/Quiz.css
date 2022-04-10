@@ -1,0 +1,21 @@
+.homepage-col {
+    text-align: center;
+    padding-bottom: 4px;
+  }
+
+
+  .quiz-button {
+    text-align: center;
+    font-size: 25px;
+  }
+  .quiz-subtopics {
+    text-align: center;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 30px;
+  }
+
+  .quiz-body {
+    text-align: center;
+    font-family: Lato;
+    font-size: 23px;
+  }
