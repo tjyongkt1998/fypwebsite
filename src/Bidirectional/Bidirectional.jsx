@@ -357,7 +357,7 @@ class Bidirectional extends Component {
               <Col span={10}>
                 {" "}
                 <img
-                  src="/assets/bidi_ikeaBed_OG.png"
+                  src="/assets/bidi_ikeaBed_OG.PNG"
                   alt="topicsBidirectionalRTL"
                 />
                 <br />
@@ -370,7 +370,7 @@ class Bidirectional extends Component {
               <Col span={10}>
                 {" "}
                 <img
-                  src="/assets/bidi_ikeaBed_Flipped.png"
+                  src="/assets/bidi_ikeaBed_Flipped.PNG"
                   alt="topicsBidirectionalRTL"
                   style={{ marginTop: "-23px" }}
                 />
