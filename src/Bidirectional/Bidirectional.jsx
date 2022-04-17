@@ -437,7 +437,7 @@ class Bidirectional extends Component {
               <Col span={24}>
                 {" "}
                 <img
-                  src="/assets/bidi_searchbar_arabic.png"
+                  src="/assets/bidi_searchbar_arabic.PNG"
                   alt="topicsBidirectionalRTL"
                 />
               </Col>

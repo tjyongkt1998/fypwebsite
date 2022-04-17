@@ -144,11 +144,11 @@ class Uisizing extends Component {
             marginBottom: "80px",
           }}
         >
-          <Col xs={1} md={2} lg={4} style={{ backgroundColor: "#F0F0F0" }} />
+          <Col xs={1} md={2} lg={3} style={{ backgroundColor: "#F0F0F0" }} />
           <Col
             xs={22}
             md={20}
-            lg={16}
+            lg={18}
             style={{ paddingRight: "20px", paddingLeft: "20px" }}
           >
             <Col span={24} className="homepage-col">
@@ -291,12 +291,12 @@ class Uisizing extends Component {
               <Col span={24}>
                 {" "}
                 <img
-                  src="/assets/uiSizing_ikea_russia.png"
+                  src="/assets/uiSizing_ikea_russia.PNG"
                   alt="topicsUI"
                   className="ikea-russia-Image"
                 />
                 <img
-                  src="/assets/uiSizing_ikea_english.png"
+                  src="/assets/uiSizing_ikea_english.PNG"
                   alt="topicsUI"
                   className="ikea-englishImage"
                 />
@@ -382,7 +382,7 @@ class Uisizing extends Component {
               </Text>
               <img
                 style={{ width: "75%" }}
-                src="/assets/uiSizing_googleFonts.png"
+                src="/assets/uiSizing_googleFonts.PNG"
                 alt="topicsUI"
                 className="uiSizing-googleNoto-Image"
               />
@@ -426,7 +426,7 @@ class Uisizing extends Component {
                   <br />
                   <img
                     style={{ width: "75%", height: "70%" }}
-                    src="/assets/uiSizing_textexpansion_chart.png"
+                    src="/assets/uiSizing_textexpansion_chart.PNG"
                     alt="topicsUI"
                     className="topics-UI-Image"
                   />
@@ -528,7 +528,7 @@ class Uisizing extends Component {
                   <br />
                   <img
                     style={{ width: "100%", height: "25%" }}
-                    src="/assets/uiSizing_font_css.png"
+                    src="/assets/uiSizing_font_css.PNG"
                     alt="topicsUI"
                     className="topics-UI-Image"
                   />
@@ -660,7 +660,7 @@ class Uisizing extends Component {
             <br />
             <br />
           </Col>
-          <Col xs={1} md={2} lg={4} style={{ backgroundColor: "#F0F0F0" }} />
+          <Col xs={1} md={2} lg={3} style={{ backgroundColor: "#F0F0F0" }} />
         </Row>
       </Fragment>
     );
