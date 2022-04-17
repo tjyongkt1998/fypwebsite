@@ -6,3 +6,15 @@
   font-family: lato-bold;
   font-size: 50px;
 }
+
+.encoding-header {
+  text-align: center;
+  font-family: Lato-bold;
+  font-size: 25px;
+}
+
+.encoding-intro {
+  text-align: center;
+  font-family: Lato;
+  font-size: 23px;
+}

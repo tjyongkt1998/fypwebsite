@@ -528,10 +528,10 @@ class Bidirectional extends Component {
                   Mirroring. In most cases, UI Mirroring will apply to most
                   things in LTR. However there are a few exceptions, these
                   exceptions mean that certain asepcts in a UI cannot be plainly
-                  mirrored. These execeptions are numbers, international phones
-                  codes/numbers and zipcodes. This means that internation phone
-                  codes/numbers like
-                  <b>"+353 1234567" </b> in LTR layouts <b>do not</b>do not
+                  mirrored. These exceptions are numbers, international phones
+                  codes/numbers and zipcodes. This means that international
+                  phone codes/numbers like
+                  <b>"+353 1234567" </b> in LTR layouts <b>do not </b>
                   become <b>"7654321 353+"</b>
                   after being localised into RTL.
                   <br />
@@ -760,24 +760,24 @@ class Bidirectional extends Component {
                 <br />
                 <br />
                 <br />
-                </Col>
-                <Col span={2} />
-                <Col span={20}>
-                  <Text className={"bidi-intro"}>
-                    In this Interactivity Section, we have 2 buttons with which
-                    will showcase the difference in LTR and RTL with the exam
-                    same content. The Buttons contain Logo, Number, Sentence and
-                    Icon in both LTR and RTL, all content is the exact same with
-                    the only difference being localised from English (LTR) to
-                    Arabic (RTL).
-                  </Text>
-                </Col>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-             
+              </Col>
+              <Col span={2} />
+              <Col span={20}>
+                <Text className={"bidi-intro"}>
+                  In this Interactivity Section, we have 2 buttons with which
+                  will showcase the difference in LTR and RTL with the exam same
+                  content. The Buttons contain Logo, Number, Sentence and Icon
+                  in both LTR and RTL, all content is the exact same with the
+                  only difference being localised from English (LTR) to Arabic
+                  (RTL).
+                </Text>
+              </Col>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+
               <Col span={2} />
             </Row>
             <Divider style={{ marginTop: "100px", marginBottom: "100px" }} />

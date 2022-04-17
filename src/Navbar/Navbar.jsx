@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Row, Col, Typography} from "antd";
-// import { HomeOutlined } from "@ant-design/icons";
+import { Row, Col, Typography } from "antd";
 import "../Navbar/Navbar.css";
 import { Link, withRouter } from "react-router-dom";
 
@@ -16,17 +15,6 @@ class NavBar extends Component {
           }}
         >
           <Col md={24}>
-            {/* <Layout
-            style={{
-              position: "fixed",
-              width: "100%",
-              paddingTop: "20px",
-              paddingBottom: "20px",
-              backgroundColor: "black",
-              marginBottom:'30px',
-              zIndex: 1,
-            }}
-          > */}
             <Row
               align="center"
               style={{ paddingTop: "20px", paddingBottom: "20px" }}
@@ -42,12 +30,6 @@ class NavBar extends Component {
                 }}
               >
                 <Row>
-                  {/* <Col flex={1}>
-                    <Button icon={<HomeOutlined />}>
-                      <Link to="/" />
-                    </Button>
-                  </Col> */}
-
                   <Col flex={1}>
                     <Link to="/">
                       <Text className="navbar-text">Home</Text>
@@ -79,7 +61,6 @@ class NavBar extends Component {
               </Col>
             </Row>
           </Col>
-          {/* </Layout> */}
         </Row>
       </Fragment>
     );

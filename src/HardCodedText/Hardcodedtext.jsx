@@ -6,7 +6,6 @@ import "../HardCodedText/Hardcodedtext.css";
 const { Text } = Typography;
 
 class Hardcodedtext extends Component {
- 
   render() {
     return (
       <Fragment>
@@ -42,6 +41,7 @@ class Hardcodedtext extends Component {
             </Col>
 
             <Row style={{}}>
+              <Col span={2} />
               <Col span={8}>
                 {" "}
                 <img
@@ -50,17 +50,18 @@ class Hardcodedtext extends Component {
                   className="topics-HardCoded-Image"
                 />
               </Col>
-              <Col span={16}>
-                <Text>
-                  Learn about key and common concepts of UI Sizing in
-                  Localisation. See how UI is affected by localisation and the
-                  commmon challenges. Learn how to implement concepts to have UI
-                  that can adapt to multiple languages and overcome these
-                  challenges.
+              <Col span={12}>
+                <Text className="encoding-intro">
+                  Learn about core concepts of localisation and
+                  internationalisation! These concepts will help you have a
+                  better understanding of the each respective topic and when to
+                  apply these topics according to required situations in
+                  localisation!
                   <br />
                   <br />
                 </Text>
               </Col>
+              <Col span={2} />
             </Row>
 
             <Divider />
@@ -76,6 +77,7 @@ class Hardcodedtext extends Component {
             </Col>
 
             <Row style={{}}>
+              <Col span={2} />
               <Col span={8}>
                 {" "}
                 <img
@@ -84,8 +86,8 @@ class Hardcodedtext extends Component {
                   className="topics-HardCoded-Image"
                 />
               </Col>
-              <Col span={16}>
-                <Text>
+              <Col span={12}>
+                <Text className="encoding-intro">
                   Learn about core concepts of localisation and
                   internationalisation! These concepts will help you have a
                   better understanding of the each respective topic and when to
@@ -95,6 +97,7 @@ class Hardcodedtext extends Component {
                   <br />
                 </Text>
               </Col>
+              <Col span={2} />
             </Row>
 
             <Divider />
@@ -110,6 +113,7 @@ class Hardcodedtext extends Component {
             </Col>
 
             <Row style={{}}>
+              <Col span={2} />
               <Col span={8}>
                 {" "}
                 <img
@@ -118,16 +122,18 @@ class Hardcodedtext extends Component {
                   className="topics-HardCoded-Image"
                 />
               </Col>
-              <Col span={16}>
-                <Text>
-                  Learn about core challenges commonly faced in localisation and
-                  internationalisation! Common concepts of localisation and
-                  internationalisation and the methods or solutions to overcome
-                  these common issues!
+              <Col span={12}>
+                <Text className="encoding-intro">
+                  Learn about core concepts of localisation and
+                  internationalisation! These concepts will help you have a
+                  better understanding of the each respective topic and when to
+                  apply these topics according to required situations in
+                  localisation!
                   <br />
                   <br />
                 </Text>
               </Col>
+              <Col span={2} />
             </Row>
 
             <Divider />
@@ -143,6 +149,7 @@ class Hardcodedtext extends Component {
             </Col>
 
             <Row style={{}}>
+              <Col span={2} />
               <Col span={8}>
                 {" "}
                 <img
@@ -151,16 +158,18 @@ class Hardcodedtext extends Component {
                   className="topics-HardCoded-Image"
                 />
               </Col>
-              <Col span={16}>
-                <Text>
-                  Learn about localisation topics with interactive features!
-                  Help better enable your understanding of localisation topics
-                  with visualising changes and issues you may face while
-                  learning about localisation and internationalisation!
+              <Col span={12}>
+                <Text className="encoding-intro">
+                  Learn about core concepts of localisation and
+                  internationalisation! These concepts will help you have a
+                  better understanding of the each respective topic and when to
+                  apply these topics according to required situations in
+                  localisation!
                   <br />
                   <br />
                 </Text>
               </Col>
+              <Col span={2} />
             </Row>
             <Divider />
           </Col>
@@ -171,6 +180,4 @@ class Hardcodedtext extends Component {
   }
 }
 
-export default(
-  withRouter,
-  (Hardcodedtext))
+export default (withRouter, Hardcodedtext);
